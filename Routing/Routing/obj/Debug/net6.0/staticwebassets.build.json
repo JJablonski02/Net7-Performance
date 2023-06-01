@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "FZzbrdw9qjrd7doZdoQLhzNbFAyzBKUU6ruMIusmfSM=",
+  "Source": "Routing",
+  "BasePath": "_content/Routing",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Routing\\wwwroot",
+      "Source": "Routing",
+      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\Routing\\Routing\\wwwroot\\",
+      "BasePath": "_content/Routing",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
