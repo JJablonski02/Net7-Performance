@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "r3nIZkxgIIS74Q9RX1AWdXiqwp94LNb+QFBy+pdriOk=",
+  "Source": "Controllers",
+  "BasePath": "_content/Controllers",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Controllers\\wwwroot",
+      "Source": "Controllers",
+      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\Controllers\\Controllers\\wwwroot\\",
+      "BasePath": "_content/Controllers",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\Controllers\\Controllers\\wwwroot\\sample.jpg",
+      "SourceId": "Controllers",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\Controllers\\Controllers\\wwwroot\\",
+      "BasePath": "_content/Controllers",
+      "RelativePath": "sample.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample.jpg"
+    }
+  ]
+}
