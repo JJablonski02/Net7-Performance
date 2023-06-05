@@ -86,9 +86,15 @@ namespace Controllers.Controllers
 
             if (Convert.ToBoolean(Request.Query["isloggedin"] == false))
             {
-                return Unauthorized("Isloggedid is not true. User must be authenticated");
+                //return Unauthorized("Isloggedid is not true. User must be authenticated");
+                return StatusCode(401);
             }
-            return new RedirectToActionResult("Books", "Store", new { });
+            return new RedirectToActionResult("Books", "Store", new {id = bookid});
+            return new RedirectToActionResult("Books", "Store", new { }, true); //301 - moved permanently
+
+            return LocalRedirectPermanent($"store/books/{bookid}"); // 301  - moved permanently
+
+
         }
     }
 }
