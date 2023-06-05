@@ -7,8 +7,6 @@ namespace Controllers.Controllers
     {
         
         [Route("/home")]
-        [Route("/")]
-
         public ContentResult IndexOne()
         {
             return new ContentResult()
@@ -63,6 +61,9 @@ namespace Controllers.Controllers
             return File(bytes, "application/jpg");
         }
 
+        [Route("bookstore")]
+        //Url: /booksotre?bookid=5&isloggedin=true
+
         [Route("book")]
         public IActionResult IndexTwo()
         {
@@ -77,23 +78,17 @@ namespace Controllers.Controllers
                 return Content("Book id can not be null or empty");
             }
 
-            int bookdid = Convert.ToInt16(ControllerContext.HttpContext.Request.Query["bookid"]);
-            if (bookdid <= 0)
+            int bookid = Convert.ToInt16(ControllerContext.HttpContext.Request.Query["bookid"]);
+            if (bookid <= 0 || bookid > 1000)
             {
-                Response.StatusCode = 400;
-                return Content("Book id can not be less or equal to zero");
+                return NotFound("Book id can not be less or greater or equal to zero");
             }
-            if (bookdid > 1000)
-            {
-                Response.StatusCode = 400;
-                return Content("Book id can not be greater than 1000");
-            }
+
             if (Convert.ToBoolean(Request.Query["isloggedin"] == false))
             {
-                Response.StatusCode = 401;
-                return Content("Isloggedid is not true. User must be authenticated");
+                return Unauthorized("Isloggedid is not true. User must be authenticated");
             }
-            return File("/sample.jpg", "application/jpg");
+            return new RedirectToActionResult("Books", "Store", new { });
         }
     }
 }
