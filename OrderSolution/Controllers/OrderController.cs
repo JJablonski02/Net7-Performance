@@ -10,7 +10,7 @@ namespace OrderSolution.Controllers
             Random random = new Random();
             int randomOrderNumber = random.Next(0, 1000);
 
-            return Json(new {orderNumber = randomOrderNumber });
+            return Json(new {orderNumbers = randomOrderNumber });
         }
     }
 }
