@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "FnIuMTDz1JSHHGTPt07rvwcudpiMPvfrnQX7EoS3AX0=",
+  "Source": "Views",
+  "BasePath": "_content/Views",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Views\\wwwroot",
+      "Source": "Views",
+      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\Views\\Views\\wwwroot\\",
+      "BasePath": "_content/Views",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\Views\\Views\\wwwroot\\StyleSheet.css",
+      "SourceId": "Views",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\Views\\Views\\wwwroot\\",
+      "BasePath": "_content/Views",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
