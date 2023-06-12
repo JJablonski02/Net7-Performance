@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "prFApMqwZWHTCBh9oEwVKtgCJ4G0lVQyRBvp/OO8q9k=",
+  "Source": "ViewComponents",
+  "BasePath": "_content/ViewComponents",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ViewComponents\\wwwroot",
+      "Source": "ViewComponents",
+      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\ViewComponents\\ViewComponents\\wwwroot\\",
+      "BasePath": "_content/ViewComponents",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\ViewComponents\\ViewComponents\\wwwroot\\friends.js",
+      "SourceId": "ViewComponents",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\ViewComponents\\ViewComponents\\wwwroot\\",
+      "BasePath": "_content/ViewComponents",
+      "RelativePath": "friends.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\friends.js"
+    },
+    {
+      "Identity": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\ViewComponents\\ViewComponents\\wwwroot\\StyleSheet.css",
+      "SourceId": "ViewComponents",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\ViewComponents\\ViewComponents\\wwwroot\\",
+      "BasePath": "_content/ViewComponents",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
