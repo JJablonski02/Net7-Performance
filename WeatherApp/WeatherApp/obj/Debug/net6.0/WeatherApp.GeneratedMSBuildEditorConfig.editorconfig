@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Jakub\Desktop\Bootcamp\WeatherApp\WeatherApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Jakub/Desktop/Bootcamp/WeatherApp/WeatherApp/Views/Weather/city.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlclxjaXR5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Jakub/Desktop/Bootcamp/WeatherApp/WeatherApp/Views/Weather/Weather.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VhdGhlclxXZWF0aGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
