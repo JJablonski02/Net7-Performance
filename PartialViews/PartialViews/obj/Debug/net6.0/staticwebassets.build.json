@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "Ape9ccXKPv27wlAKw4DiSK9vLD1ah2RpgiqGtGSqN94=",
+  "Source": "PartialViews",
+  "BasePath": "_content/PartialViews",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PartialViews\\wwwroot",
+      "Source": "PartialViews",
+      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\PartialViews\\PartialViews\\wwwroot\\",
+      "BasePath": "_content/PartialViews",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\PartialViews\\PartialViews\\wwwroot\\StyleSheet.css",
+      "SourceId": "PartialViews",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Jakub\\Desktop\\Bootcamp\\PartialViews\\PartialViews\\wwwroot\\",
+      "BasePath": "_content/PartialViews",
+      "RelativePath": "StyleSheet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\StyleSheet.css"
+    }
+  ]
+}
